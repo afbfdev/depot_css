@@ -1,0 +1,96 @@
+*{
+    font-family: 'Open Sans', sans-serif;;
+}
+
+/* Navigation bar */
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 4px;
+}
+
+nav {
+padding: 10px;
+}
+
+a:hover {
+    background: rgb(228, 187, 6);
+    text-decoration: underline;
+    border-radius: 15px;
+}
+
+a:visited {
+  color: green;
+}
+
+a:active {
+    color: greenyellow;
+}
+
+/* Main */
+
+h1 {
+    background: gray;
+    text-align: center;
+    box-shadow: 7px 7px 7px 0.5px;
+    border-radius: 5px;
+}
+
+span {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;;
+}
+
+.border {
+    border: solid 3px gray;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.border > p {
+    text-indent: 20px;
+}
+/* Contact */
+
+form input{
+    margin: 8px;
+}
+
+.name {
+    margin-left: 42px;
+}
+
+.male {
+    padding-left: 30px;;
+}
+.email {
+    margin-left: 44px;
+}
+
+.town {
+    margin-left: 47px;
+    padding: 3px;
+    width: 14%;
+}
+
+.phone {
+    margin-left: 38px;
+}
+
+.phone::placeholder {
+ color:rgb(228, 187, 6)
+}
+
+.button {
+    padding: 5px;
+    width: 10%;
+}
+
+footer li:nth-child(2n) {
+  background-color: antiquewhite;
+  width: 25%;
+}
